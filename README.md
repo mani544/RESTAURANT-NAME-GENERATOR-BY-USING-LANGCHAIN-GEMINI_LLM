@@ -16,7 +16,7 @@ This is a fun AI-powered Streamlit app that generates fancy restaurant names and
 ## 🧠 Tech Stack
 
 - [LangChain](https://www.langchain.com/)
-- [OpenAI API](https://platform.openai.com/)
+- [Gemini_API](https://gemini.google.com/app)
 - [Streamlit](https://streamlit.io/)
 - Python 3.8+
 
