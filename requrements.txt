@@ -1,0 +1,6 @@
+## 🧠 Tech Stack
+
+- [LangChain](https://www.langchain.com/)
+- [Gemini_API](https://gemini.google.com/app)
+- [Streamlit](https://streamlit.io/)
+- Python 3.8+
