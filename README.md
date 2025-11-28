@@ -1,6 +1,6 @@
 # 🍽️ Restaurant Name Generator using LangChain & Streamlit
 
-This is a fun AI-powered Streamlit app that generates fancy restaurant names and menu items based on the cuisine you choose! Built using **LangChain**, **OpenAI**, and **Streamlit**.
+This is a fun AI-powered Streamlit app that generates fancy restaurant names and menu items based on the cuisine you choose! Built using **LangChain**, **Google Gemini**, and **Streamlit**.
 
 ---
 
