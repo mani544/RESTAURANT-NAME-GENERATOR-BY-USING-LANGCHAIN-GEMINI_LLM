@@ -1,24 +1,38 @@
-# 🍽️ Restaurant Name Generator using LangChain & Streamlit
 
-This is a fun AI-powered Streamlit app that generates fancy restaurant names and menu items based on the cuisine you choose! Built using **LangChain**, **Google Gemini**, and **Streamlit**.
+
+---
+
+# 🍽️ **Restaurant Name Generator using LangChain & Streamlit**
+
+![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python\&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit\&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-AI%20Framework-green?logo=chainlink\&logoColor=white)
+![Gemini](https://img.shields.io/badge/Google-Gemini-blue?logo=google)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Project-Active-brightgreen)
+![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-orange)
+
+
+This is a fun AI-powered Streamlit app that generates fancy restaurant names and menu items based on the cuisine you choose!
+Built using **LangChain**, **Google Gemini**, and **Streamlit**.
 
 ---
 
 ## 🚀 Features
 
-- Select from popular cuisines like Indian, Italian, Mexican, Arabic, and American.
-- Generates a unique restaurant name using AI.
-- Suggests menu items based on the generated restaurant name.
-- Simple, clean Streamlit UI.
+* Select from popular cuisines like **Indian, Italian, Mexican, Arabic, American**, etc.
+* AI generates a **unique restaurant name**.
+* Automatically suggests **relevant menu items**.
+* Fast, clean, user-friendly Streamlit UI.
 
 ---
 
 ## 🧠 Tech Stack
 
-- [LangChain](https://www.langchain.com/)
-- [Gemini_API](https://gemini.google.com/app)
-- [Streamlit](https://streamlit.io/)
-- Python 3.8+
+* **LangChain**
+* **Google Gemini API**
+* **Streamlit**
+* **Python 3.8+**
 
 ---
 
@@ -29,13 +43,14 @@ This is a fun AI-powered Streamlit app that generates fancy restaurant names and
 ```bash
 git clone https://github.com/your-username/restaurant-name-generator.git
 cd restaurant-name-generator
-````
+```
 
 ### 2. Create and Activate Virtual Environment
 
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+source venv/bin/activate     # Mac/Linux
+venv\Scripts\activate        # Windows
 ```
 
 ### 3. Install Dependencies
@@ -44,10 +59,9 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Create a file named `secret_key.py` in the root folder and add your OpenAI API key like this:
+Create a file named **`secret_key.py`** and add your key:
 
 ```python
-# secret_key.py
 openapi_key = "your-openai-api-key"
 ```
 
@@ -68,28 +82,26 @@ restaurant-name-generator/
 │
 ├── main.py                 # Streamlit app
 ├── langchain_helper.py     # LangChain logic
-├── secret_key.py           # API keys (DO NOT UPLOAD TO GITHUB)
-├── requirements.txt        # Python dependencies
-└── README.md               # This file
+├── secret_key.py           # API keys (ignored from Git)
+├── requirements.txt        # Dependencies
+└── README.md               # Documentation
 ```
 
 ---
 
-
-
 ## ⚠️ Important Notes
 
-* Never commit `secret_key.py` or your API keys to public repositories.
-* This app uses OpenAI’s GPT via LangChain – make sure you have enough quota on your OpenAI account.
+* **Never upload API keys** or `secret_key.py` to GitHub.
+* Ensure your **Gemini/OpenAI API quota** is active before running the app.
 
 ---
 
 ## ✨ Future Improvements
 
-* Add Gemini/GPT-4o support.
-* Style the Streamlit app with custom CSS or themes.
-* Deploy on Streamlit Cloud or Hugging Face Spaces.
+* Add **Gemini 2.0 / GPT-4o** support
+* Add UI Themes / Custom CSS
+* Deploy on **Streamlit Cloud** / **HuggingFace Spaces**
 
 ---
 
-Let me know if you'd like a deployment-ready version or help turning this into a Streamlit Cloud app or GitHub Pages project.
+
